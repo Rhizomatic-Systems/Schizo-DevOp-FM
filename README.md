@@ -1,5 +1,13 @@
-<!-- doc ver 0.2.1 -->
+<!-- doc ver 0.3.1 -->
 # Field Manual - RS10000 - Schizophrenic DevOps 
+## 1.0 - Introduction
+This field manual provides a tactical overview of applying the theoretical frameworks of Gilles Deleuze and Félix Guattari (henceforth known as D&G) to the practice of DevOps. Drawing from their concepts of assemblage, territory, lines of flight, desiring-production, rhizome, body without organs, the schizophrenic anti-oedijus, amongst other theories, this manual outlines how to reconfigure traditional development and operations workflows to foster fluidity, adaptability, and collective intelligence in complex, dynamic environments.
+
+The manual is structured to mirror the principles of agile warfare, emphasizing decentralized decision-making, continuous adaptation, and the creation of smooth spaces of collaboration. It is intended for use by DevOps practitioners, operators, engineers, team leads, and organizational strategists seeking to implement a more flexible and responsive operational framework, and tasked vith navigating the complex, ever-evolving landscape of product delivery and system maintenance.
+
+By adopting a rhizomatic approach, teams can break away from rigid, hierarchical structures and embrace a more fluid, adaptive, collaborative workflow, and interconnected systems capable responding to change with speed and precision. 
+
+The following sections will provide actionable strategies, tactical insights, and doctrinal principles for integrating these philosophical concepts into your DevOps operations, from planning to deployment and beyond.
 ## 2.0 - Deleuze for Developers
 by <a href="https://steveklabnik.com/">Steve Klabnik</a>
 

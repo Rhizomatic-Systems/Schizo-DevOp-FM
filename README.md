@@ -1,4 +1,4 @@
-<!-- doc ver 0.4.1 -->
+<!-- doc ver 0.5.1 -->
 # Field Manual - RS10000 - Schizophrenic DevOps 
 ## 1.0 - Introduction
 This field manual provides a tactical overview of applying the theoretical frameworks of Gilles Deleuze and Félix Guattari (henceforth known as D&G) to the practice of DevOps. Drawing from their concepts of assemblage, territory, lines of flight, desiring-production, rhizome, body without organs, the schizophrenic anti-oedijus, amongst other theories, this manual outlines how to reconfigure traditional development and operations workflows to foster fluidity, adaptability, and collective intelligence in complex, dynamic environments.
@@ -68,3 +68,10 @@ I take three key points from this interview:
 2) I think the idea of different kinds of lines is particularly fruitful. This is especially the case of those lines that tend towards ruts, black holes, and death. Posts about minotaurs, trolls, and gray vampires are really posts about black holes. The black hole or, as Einstein called it “dark star”, is an entity whose gravitational force is so strong that nothing, not even light, can escape from it. Minotauring, trolling, and gray vampiring are forms of engagement that suck all discussion into their orbit, preventing it from moving on. As such, they tend to prevent the formation of assemblages. One aim in cultivating and evaluating assemblages lies in finding ways to escape ruts, black holes, and lines leading to death.
 
 3) Deleuze’s claims about coherency and consistency are particularly important. Consistency and coherence are not qualities that precede assemblages, rather they are emergent properties that do or do not arise from assemblage. It is noteworthy that the term “consistency” is not being used in the logical sense, but in the sense of solutions and substances. Deleuze and Guattari’s notion of consistency is closer to the way we use it when talking about cement, referring to it as “soupy”, “dry”, “lumpy”, “coarse”, “consisting of stone and lime”, etc., than the logical sense of “lacking in contradictions”. An assemblage can be riddled with contradictions as in the case of the economic and ethnic divisions that divide the North and South side of Chicago, while still producing consistency and coherence. Consistency and coherence are thus not about being without logical contradiction, nor about harmony, but rather about how heterogeneous elements or objects hang together.
+
+## 2.2 - Deterritorialization
+
+Let’s re-examine this diagram of the assemblage:
+
+<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Schizo-DevOp-FM/refs/heads/main/img/FM-RS10000-DETERRITORIALIZATION-01.png" />
+

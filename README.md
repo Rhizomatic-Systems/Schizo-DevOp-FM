@@ -1,6 +1,11 @@
-<!-- doc ver 0.5.1 -->
-# Field Manual - RS10000 - Schizophrenic DevOps 
-## 1.0 - Introduction
+<!-- doc ver 0.7.3 -->
+# Field Manual
+## Deleuzian DevOps
+### FM-RS10000
+
+---
+
+### 1.0 - Introduction
 This field manual provides a tactical overview of applying the theoretical frameworks of Gilles Deleuze and Félix Guattari (henceforth known as D&G) to the practice of DevOps. Drawing from their concepts of assemblage, territory, lines of flight, desiring-production, rhizome, body without organs, the schizophrenic anti-oedijus, amongst other theories, this manual outlines how to reconfigure traditional development and operations workflows to foster fluidity, adaptability, and collective intelligence in complex, dynamic environments.
 
 The manual is structured to mirror the principles of agile warfare, emphasizing decentralized decision-making, continuous adaptation, and the creation of smooth spaces of collaboration. It is intended for use by DevOps practitioners, operators, engineers, team leads, and organizational strategists seeking to implement a more flexible and responsive operational framework, and tasked vith navigating the complex, ever-evolving landscape of product delivery and system maintenance.
@@ -8,10 +13,10 @@ The manual is structured to mirror the principles of agile warfare, emphasizing 
 By adopting a rhizomatic approach, teams can break away from rigid, hierarchical structures and embrace a more fluid, adaptive, collaborative workflow, and interconnected systems capable responding to change with speed and precision. 
 
 The following sections will provide actionable strategies, tactical insights, and doctrinal principles for integrating these philosophical concepts into your DevOps operations, from planning to deployment and beyond.
-## 2.0 - Deleuze for Developers
+### 2.0 - Deleuze for Developers
 by <a href="https://steveklabnik.com/">Steve Klabnik</a>
 
-### 2.1 - Assemblages 
+#### 2.1 - Assemblages 
 The ancient Greeks thought that atoms were it. ἄτομος, Wikipedia will tell you, comes from ‘ἀ’- meaning “not” and ‘τέμνω’, meaning ‘I cut.’ Cells are the smallest thing that there is. You can’t cut them in half. Everything is composed of a bunch of atoms.
 
 Well, guess what? Modern science has found things smaller than atoms. Dammit! What we do know for sure, though, is that some things are made up of composites of other things. That’s for sure. We’re still not clear on what that fundamental stuff is, but composites are a pretty safe bet. Even if atoms are made up of other things, we know that other things are made up of a bunch of atoms.
@@ -22,11 +27,11 @@ Let’s think about your body: it’s a composite, you’re made up of (among ot
 
 Let’s move away from biology for a bit and into web applications instead. Here’s an architecture diagram of a typical web service:
 
-<img src="https://github.com/Rhizomatic-Systems/Schizo-DevOp-FM/blob/main/img/FM-RS10000-ASSEMBLAGES-01.png" alt="web service" />
+<img src="https://github.com/Rhizomatic-Systems/Deleuzian-DevOps/blob/main/img/FM-RS10000-ASSEMBLAGES-01.png" alt="web service" />
 
 Looks pretty normal, right? Let’s modify it a bit:
 
-<img src="https://github.com/Rhizomatic-Systems/Schizo-DevOp-FM/blob/main/img/FM-RS10000-ASSEMBLAGES-02.png" alt="web service" />
+<img src="https://github.com/Rhizomatic-Systems/Deleuzian-DevOps/blob/main/img/FM-RS10000-ASSEMBLAGES-02.png" alt="web service" />
 
 This is the same web service, right? We’ve introduced a few database slaves and a reverse proxy, which allowed us to knock out one of our application servers. In a certain sense, this service is equivalent; in another, it’s different: It’s got another extra component, and one component has developed more complexity. We might need to hire a DBA and someone who’s good at writing Varnish configs. Different skills are needed.
 
@@ -40,10 +45,10 @@ So what’s the point? Well, this is a basic term that can be used to think abou
 
 (and to give you a comparison of complexity of explanation, here’s the blog post by  on assemblages where I got that quote from. He quotes Deleuze directly and extensively:
 
-### 2.1.1 - Deleuze on Assemblages 
+#### 2.1.1 - Deleuze on Assemblages 
 _by Levi Bryant_
 
-<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Schizo-DevOp-FM/refs/heads/main/img/FM-RS10000-ASSEMBLAGES-3.jpg" alt="assemblages">
+<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Deleuzian-DevOps/refs/heads/main/img/FM-RS10000-ASSEMBLAGES-3.jpg" alt="assemblages">
 
 In preparing my talk on Deleuze’s overturning of Platonism and his theory of simulacra for the RMMLA on Friday, I came across the following terrific interview with Deleuze on A Thousand Plateaus and assemblages:
 
@@ -59,7 +64,7 @@ In reading your work, one gets the feeling that those distinctions which are tra
 
 There are two ways to supress or attenuate the distinction between nature and culture. The first is to liken animal behavior to human behavior (Lorenz tried it, with disquieting political implications). But what we are saying is that the idea of assemblages can replace the idea of behavior, and thus with respect to the idea of assemblage, the nature-culture distinction no longer matters. In a certain way, behavior is still a countour. But an assemblage is first and foremost what keeps very heterogeneous elements together: e.g. a sound, a gesture, a position, etc., both natural and artificial elements. The problem is one of “consistency” or “coherence,” and it prior to the problem of behavior. How do things take on consistency? How do they cohere? Even among very different things, an intensive continuity can be found. We have borrowed the word “plateau” from Bateson precisely to designate these zones of intensive continuity. (Two Regimes of Madness, pgs. 176 – 179)
 
-<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Schizo-DevOp-FM/refs/heads/main/img/FM-RS10000-ASSEMBLAGES-4.jpg" alt="black hole">
+<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Deleuzian-DevOps/refs/heads/main/img/FM-RS10000-ASSEMBLAGES-4.jpg" alt="black hole">
 
 I take three key points from this interview:
 
@@ -69,9 +74,9 @@ I take three key points from this interview:
 
 3) Deleuze’s claims about coherency and consistency are particularly important. Consistency and coherence are not qualities that precede assemblages, rather they are emergent properties that do or do not arise from assemblage. It is noteworthy that the term “consistency” is not being used in the logical sense, but in the sense of solutions and substances. Deleuze and Guattari’s notion of consistency is closer to the way we use it when talking about cement, referring to it as “soupy”, “dry”, “lumpy”, “coarse”, “consisting of stone and lime”, etc., than the logical sense of “lacking in contradictions”. An assemblage can be riddled with contradictions as in the case of the economic and ethnic divisions that divide the North and South side of Chicago, while still producing consistency and coherence. Consistency and coherence are thus not about being without logical contradiction, nor about harmony, but rather about how heterogeneous elements or objects hang together.
 
-## 2.2 - Deterritorialization
+### 2.2 - Deterritorialization
 
 Let’s re-examine this diagram of the assemblage:
 
-<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Schizo-DevOp-FM/refs/heads/main/img/FM-RS10000-DETERRITORIALIZATION-01.png" />
+<img src="https://raw.githubusercontent.com/Rhizomatic-Systems/Deleuzian-DevOps/refs/heads/main/img/FM-RS10000-DETERRITORIALIZATION-01.png" />
 
